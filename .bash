@@ -1,0 +1,19 @@
+/seu-projeto
+    /img
+        pirate-ship.png
+        mapa.jpg
+        peixe.webp
+        templo.webp
+        ilha-dos-tritoes-poneglyph.webp
+        retroceder.webp
+        mapa-celeste.webp
+        wano.jpg
+        direita.webp
+        piriodo.webp
+        roger.jpg
+    /styles
+        styles.css
+    index.html
+    main.html
+    onp.mp3
+    script.js

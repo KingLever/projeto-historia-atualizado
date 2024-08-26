@@ -1,0 +1,70 @@
+body {
+    background-color: #1a3a1e; /* Fundo escuro para dar um efeito de aventura */
+    color: white;
+    font-family: "Bai Jamjuree", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    background-image: url('img/background-intro.jpg'); /* Imagem de fundo com tema pirata */
+    background-size: cover;
+    background-position: center;
+}
+
+.welcome-container {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7); /* Fundo semitransparente para contraste */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.6);
+    max-width: 90%;
+    width: 500px;
+    position: relative;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 2.5em;
+    color: #f5deb3; /* Cor dourada clara para um efeito de tesouro */
+}
+
+button {
+    background-color: #f39c12; /* Cor amarela dourada */
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #e67e22; /* Cor laranja escura ao passar o mouse */
+    transform: scale(1.05);
+}
+
+.pirate-ship {
+    max-width: 300px; /* Aumentar a imagem do navio pirata */
+    margin-top: 20px;
+    border: 5px solid #f39c12; /* Borda dourada ao redor da imagem */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.audio-container {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.audio-container audio {
+    width: 100%;
+}
